@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:'Work Sans',Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas: cm(centimetro),mn(milímetro),in(polegada),pt(ponto) e pc(paca)
+
+            Medidas Relativas: em(relativa a fonte(letra maiúscula), ex(relativa ao tamanho da altura x),rem(relativo a fonte que está configurada no body),vw(largura da view port),vh(altura da view port) e %(porcentagem).
+            */
+            font-size: 1em;
+            /*ligther(leve); Normal; bold(negrito); bolder(muito negrito)*/
+        }
+        h1{
+            /*shorthand(dar uma mãozinha) font-font-style -> font-weight -> font-size -> font-family
+
+            font-family:'Work Sans', sans-srif;
+            font-weight : bolder;  (peso);
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em,'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, perspiciatis placeat maiores perferendis nihil quas, tempora, voluptas autem vel hic iste magni exercitationem sapiente corporis aperiam animi tempore eos? Totam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quia voluptatem amet, odio, itaque quae accusamus consequuntur cupiditate dolorum culpa doloremque ullam optio neque facere harum aspernatur sapiente animi omnis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, libero? Quas maxime laborum, quidem pariatur repellat tempore facere itaque quisquam consectetur perferendis accusantium iste quaerat error repudiandae, at dolores modi?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores delectus iste temporibus ducimus ipsum esse repudiandae sed! Saepe illo quo tenetur excepturi consequatur inventore repellat quod, placeat, eligendi veritatis eius!</p>
+</body>
+</html>
